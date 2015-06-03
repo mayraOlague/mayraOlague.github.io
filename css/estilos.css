@@ -1,0 +1,185 @@
+
+body
+{
+	font-size: 16px;/* definir tamaño letra del body 1EM 0 16px*/
+}
+header
+{
+	text-align: center;
+}
+header h1
+{
+	padding-right:10px;
+	border-right: 1px solid white;
+}
+header img .colores
+{
+	height: 100%;
+	max-width: 1024px;
+	margin-bottom: 10px 
+}
+header input
+{
+	margin-top: 15px;
+}
+header nav
+{
+	background: #F59FBC;
+	margin-top: 10px;
+	padding: 10px 0px;
+}
+header nav ul li 
+{ 		
+	border-right: 2px solid white;
+	color:#0078A4;
+	display: inline-block;
+	margin-right: 10px;
+	padding-right: 5px;
+}
+footer
+
+{
+	float: left;
+	margin-right: 100px;
+	margin: 0px 30px 0px 0px;
+	padding: 3px 20px 3px 20px;
+}
+section article{
+	display: block;
+	width: 100%;
+
+
+}
+#curriculum img{
+	border: 5px solid #666666;
+	width: 900px;
+	margin: 0px 0px 50px 0px;
+}
+section	#curriculum
+{
+	max-width: 100%;
+	display: none;
+}
+section #infoPersonal .info
+{
+		width: 44%; /* tamaño letra*/
+  display: none;
+	margin: 0 auto;
+	width: 550px;	
+}
+#principal{
+}
+#principal .imginicio
+{
+		display: inline-block;
+		 width: 1024px;
+ background: black;
+}
+footer{
+	text-align: center;
+	display: inline-block;
+}
+#header
+{
+	display: inline-block;
+}
+
+
+#informacion h1
+{
+font-size: 3em;
+margin: -150px 490px  90px 100px;}
+
+#curriculum
+{
+	color: #F59FBC;
+	border-right: 1px solid white;
+	background: #999999;
+	display: none;
+}
+#contactar
+{
+	display: none;
+
+}
+
+#infoPersonal{
+	display: none;
+}
+#principal article
+{
+	display: inline-block; /*se acomoden los articulos*/
+	margin-right: 30px;
+	margin-top: 30px;
+	vertical-align: top;
+}
+#principal .bienvenido{
+	margin:-200px 600px 250px  -680px;
+	color: #F59FBC;
+	width: 40%; /*tamaño letra*/
+	font-size: 2em;
+}
+#principal #texto
+{
+	display: none;
+	margin: 0px 550px 0px 200px;
+	color:  #1C94A3;
+	width: 40%; /*tamaño letra*/
+	font-size: 1.5em;
+
+}
+footer .footer{
+	text-align: right;
+	display: inline-block;
+}
+#principal #texto .welcome
+{
+	float: right;
+	max-width: 100%;
+	margin-right: 100px;
+	font-size: 2.5em;/* cambiar tamaño solo letra titulo*/
+	border-right: 1px solid white;
+}
+#principal #texto .img1
+{
+	float: right;
+	margin: -330px -185px 20px 50px;
+	width: 100px;
+}
+#noprincipal article
+{
+	display: inline-block;
+}
+#curriculum #img1
+{
+	width: 20%;
+}
+#menuCelular{
+	display:  none;
+}
+@media screen and (min-width: 480px) and (max-width: 640px){
+	body
+	{
+		width:100px;
+	}
+	header{
+		font-size: 0.5em;
+		width: 100px;
+	}
+	header img{
+		display: none;
+	}
+	section article{
+		display: block;
+		width: 100%;
+	}
+	section article{
+		display :block;
+		width:  100%;
+
+	}
+	#menuCelular{
+		display: block;
+		width: 100%;
+	}
+}
